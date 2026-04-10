@@ -22,7 +22,6 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
         // Включение расширенных стилей: выделение всей строки и сетку
         ListView_SetExtendedListViewStyle(hListView, LVS_EX_FULLROWSELECT | LVS_EX_GRIDLINES);
 
-        // Добавление колонки
         LVCOLUMN lvc = { 0 };
         lvc.mask = LVCF_TEXT | LVCF_WIDTH | LVCF_FMT;
         lvc.fmt = LVCFMT_LEFT;
