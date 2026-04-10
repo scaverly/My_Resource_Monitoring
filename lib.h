@@ -1,0 +1,10 @@
+#pragma once
+#include <windows.h>
+#include <tlhelp32.h>
+#include <psapi.h>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+#include <cwctype>
